@@ -42,6 +42,7 @@ namespace MongoAPI.Controllers
             MongoClient dbClient = new MongoClient(_configuration.GetConnectionString("UserRolesConnection"));
 
             int LastUserRolesId = dbClient.GetDatabase("Mongo").GetCollection<UserRoles>("UserRoles").AsQueryable().Count();
+            UserRoles.RoleId= LastUserRolesId + 1;
 
             dbClient.GetDatabase("Mongo").GetCollection<UserRoles>("UserRoles").InsertOne(UserRoles);
             return new JsonResult("Added Successfully");

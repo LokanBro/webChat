@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{166FE6A0-FAE6-46F7-BAB3-D8347E1BE0B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoAPI", "WebApplication2\MongoAPI.csproj", "{166FE6A0-FAE6-46F7-BAB3-D8347E1BE0B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
